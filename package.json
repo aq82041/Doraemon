@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/test.html --public-url ./"
+  },
   "dependencies": {
     "css.js": "^0.2.2"
   },
